@@ -8,6 +8,7 @@ import VModel from '../components/vModel/index.vue'
 import RefParent from '../components/refParent/index.vue'
 import ProvideInject from '../components/provideInject/index.vue'
 import Pinia from '../components/pinia/index.vue'
+import Slot from '../components/slot/index.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -71,6 +72,11 @@ const router = createRouter({
         path: "/pinia",
         name: 'pinia',
         component: Pinia
+      },
+      {
+        path: "/slot",
+        name: "slot",
+        component: Slot,
       }
     ],
   });

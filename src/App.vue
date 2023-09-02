@@ -13,6 +13,7 @@
     <span class="item"><router-link to="/refParent">Ref-Parent</router-link></span>
     <span class="item"><router-link to="/provideInject">provide-inject</router-link></span>
     <span class="item"><router-link to="/pinia">pinia</router-link></span>
+    <span class="item"><router-link to="/slot">slot</router-link></span>
 
     <router-view></router-view>
   </div>
