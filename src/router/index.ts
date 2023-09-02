@@ -6,6 +6,7 @@ import EventBus from '../components/eventBus/index.vue'
 import UseAttrs from '../components/useAttrs/index.vue'
 import VModel from '../components/vModel/index.vue'
 import RefParent from '../components/refParent/index.vue'
+import ProvideInject from '../components/provideInject/index.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -59,6 +60,11 @@ const router = createRouter({
         path: "/refParent",
         name: 'refParent',
         component: RefParent,
+      },
+      {
+        path: "/provideInject",
+        name: 'provideInject',
+        component: ProvideInject
       }
     ],
   });

@@ -11,6 +11,7 @@
     <span class="item"><router-link to="/useAttrs">$useAttrs</router-link></span>
     <span class="item"><router-link to="/vModel">vModel</router-link></span>
     <span class="item"><router-link to="/refParent">Ref-Parent</router-link></span>
+    <span class="item"><router-link to="/provideInject">provide-inject</router-link></span>
 
     <router-view></router-view>
   </div>
