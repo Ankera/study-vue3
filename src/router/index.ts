@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import TreeParent from '../components/tree/TreeParent.vue';
 import ParentSon from '../components/parentSon/index.vue';
 import ComponentsIndex from '../components/components/Index.vue'
+import EventBus from '../components/eventBus/index.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -35,6 +36,11 @@ const router = createRouter({
         path: "/parentSon",
         name: "parentSon",
         component: ParentSon,
+      }, 
+      {
+        path: "/eventBus",
+        name: "eventBus",
+        component: EventBus,
       },
     ],
   });
