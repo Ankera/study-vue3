@@ -4,6 +4,7 @@
 
 <template>
   <div class="app-contaienr">
+    <span class="item"><router-link to="/parentSon">父子传值</router-link></span>
     <span class="item"><router-link to="/tree">树形结构</router-link></span>
     <span class="item"><router-link to="/components">多组件+性能</router-link></span>
 
