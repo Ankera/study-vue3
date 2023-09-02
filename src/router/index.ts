@@ -5,6 +5,7 @@ import ComponentsIndex from '../components/components/Index.vue'
 import EventBus from '../components/eventBus/index.vue'
 import UseAttrs from '../components/useAttrs/index.vue'
 import VModel from '../components/vModel/index.vue'
+import RefParent from '../components/refParent/index.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -54,6 +55,11 @@ const router = createRouter({
         name: "vModel",
         component: VModel,
       },
+      {
+        path: "/refParent",
+        name: 'refParent',
+        component: RefParent,
+      }
     ],
   });
   

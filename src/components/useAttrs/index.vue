@@ -5,11 +5,13 @@
 <template>
   <div>
     useAttrs
+
+    <Hint :type="'primiary'" :size="6" />
   </div>
 </template>
 
 <script setup lang='ts'>
-
+import Hint from './Hint.vue'
 </script>
 
 <style scoped>

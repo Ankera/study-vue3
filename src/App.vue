@@ -10,6 +10,7 @@
     <span class="item"><router-link to="/eventBus">$BUS</router-link></span>
     <span class="item"><router-link to="/useAttrs">$useAttrs</router-link></span>
     <span class="item"><router-link to="/vModel">vModel</router-link></span>
+    <span class="item"><router-link to="/refParent">Ref-Parent</router-link></span>
 
     <router-view></router-view>
   </div>
