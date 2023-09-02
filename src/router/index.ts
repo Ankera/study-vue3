@@ -3,6 +3,8 @@ import TreeParent from '../components/tree/TreeParent.vue';
 import ParentSon from '../components/parentSon/index.vue';
 import ComponentsIndex from '../components/components/Index.vue'
 import EventBus from '../components/eventBus/index.vue'
+import UseAttrs from '../components/useAttrs/index.vue'
+import VModel from '../components/vModel/index.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -41,6 +43,16 @@ const router = createRouter({
         path: "/eventBus",
         name: "eventBus",
         component: EventBus,
+      },
+      {
+        path: "/useAttrs",
+        name: "useAttrs",
+        component: UseAttrs,
+      },
+      {
+        path: "/vModel",
+        name: "vModel",
+        component: VModel,
       },
     ],
   });

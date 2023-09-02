@@ -8,6 +8,8 @@
     <span class="item"><router-link to="/tree">树形结构</router-link></span>
     <span class="item"><router-link to="/components">多组件+性能</router-link></span>
     <span class="item"><router-link to="/eventBus">$BUS</router-link></span>
+    <span class="item"><router-link to="/useAttrs">$useAttrs</router-link></span>
+    <span class="item"><router-link to="/vModel">vModel</router-link></span>
 
     <router-view></router-view>
   </div>
